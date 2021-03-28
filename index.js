@@ -5,7 +5,7 @@ Activity.errorReporter = {
 	};
 
 
-Activity.importScript(Lourah.jsFramework.parentDir() + "/Overview.js");
+Activity.importScript(Lourah.jsFramework.parentDir() + "/Lourah.android.Overview.js");
 Activity.importScript(Lourah.jsFramework.parentDir() + "/Arrays.js");
 Activity.importScript(Lourah.jsFramework.parentDir() + "/Lourah.graphics.Color.js");
 
@@ -65,7 +65,7 @@ var board = (new Lourah.android.Overview({
 	})).$();
 
 Activity.setContentView(board.ll);
-Activity.setTitle("Lourabble (c) 2018 Lourah.com");
+Activity.setTitle("Lourabble (c) 2018-2021 Lourah.com");
 log("Starting...");
 
 
@@ -112,8 +112,8 @@ var game = Lourabble.fr;
 
 var ODS = {
    path : {
-   	txt : Lourah.jsFramework.dir() + "/ODS5.txt",
-       json: Lourah.jsFramework.dir() + "/ODS5.json"
+   	txt : Lourah.jsFramework.dir() + "/ODS8.txt",
+       json: Lourah.jsFramework.dir() + "/ODS8.json"
    	},
    atoms : {
 	/*
