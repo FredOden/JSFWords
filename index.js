@@ -112,8 +112,8 @@ var game = Lourabble.fr;
 
 var ODS = {
    path : {
-   	txt : Lourah.jsFramework.dir() + "/ODS8.txt",
-       json: Lourah.jsFramework.dir() + "/ODS8.json"
+   	txt : Lourah.jsFramework.dir() + "/Lourahbble.txt",
+       json: Lourah.jsFramework.dir() + "/Lourahbble.json"
    	},
    atoms : {
 	/*
