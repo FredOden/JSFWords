@@ -180,7 +180,8 @@ function loadOdsTxt() {
 log("txt::load::" + ODS.path.txt);
 var start = System.currentTimeMillis();
 ODS.words = (new String(Activity.path2String(ODS.path.txt)))
-        .split("\r\n");
+      .split("\n");
+        //.split("\r\n");
 
 var top = System.currentTimeMillis();
 log("LoadOds::" + ODS.path.txt + "::" + (top - start) + " ms");
